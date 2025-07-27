@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header{
+    background-color: #81A2F8;
+    height: 67px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 64px;
+    position: relative;
+    left: 38px;
+    top: 27px;
+    font-size: 24px;
+}
+
+.we{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 29px;
+    margin-bottom: 16px;
+    
+}
+
+.heading{
+    border-bottom: 1px solid black;
+}
+
+
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: #140D0D;
+    display: flex;
+    margin-top: 75px;
+}
+
+footer img{
+    height: 59px;
+    width: 120px;
+    margin: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+.link{
+    width: 20px;
+    height: 17px;
+    margin-top: 72px;
+}
+
+
+.ttt:hover{
+    text-decoration: underline;
+}
+
+
+img{
+    border-radius: 10px;
+    align-items: center;
+}
+
+section div{
+    border: 3px solid #81A2F8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: border-color 0.3s ease, opacity 0.3s ease;
+}
+
+section div:hover{
+    border-color: transparent;
+}
+
+section section{
+    display: flex;
+    margin-left: 77px;
+    margin-right: 77px; 
+    margin-top: 22px;
+    gap: 56px; 
+    justify-content: center;
+}
+
+.language{
+    font-size: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.ttt:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.we:hover{
+    color: white;
+}
+
+.additional{
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+
+.add_head{
+    font-size: 25px
+}
+
+.add_p{
+    font-size: 20px
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    
+}
+
+td{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px
+}
+
+.up{
+    background-color: black;
+    color: white;
+}
+
+.t_language{
+    background-color: #4c3df2;
+    color: white
+}
+
+.t_language2{
+    background-color: #373085;
+    color: white
+}
+
+.t_number{
+    background-color: #17ad41;
+    color: white;
+}
+
+.difficult{
+    background-color: #ed1313;
+    color: white;
+}
+
+.mid{
+    background-color: #c9c41a;
+    color: white;
+}
+
+.very_easy{
+    background-color: #1a871a;
+    color: white;
+}
+
+table a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-out;
+}
+
+.t_number2{
+    background-color: #2a8c46;
+    color: white;
+}
+
+table a:hover{
+    color: #959e97;
+}
